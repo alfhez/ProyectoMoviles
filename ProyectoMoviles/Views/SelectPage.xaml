@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMoviles.Views.SelectPage"
+             Title="">
+    <VerticalStackLayout>
+        <Label 
+            Text="Que deseas hacer"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button Text="Consultar eventos" Clicked="btn_Consultar" Margin="10"/>
+        <Button Text="Agregar Evento" Clicked="btn_Agregar" Margin="10"/>
+
+    </VerticalStackLayout>
+</ContentPage>

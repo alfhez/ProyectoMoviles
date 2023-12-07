@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMoviles.Views.AddEventPage"
+             Title="">
+    <VerticalStackLayout BackgroundColor="Gray">
+        <Label>Nombre</Label>
+        <Entry x:Name="txtNombre" 
+               BackgroundColor="Azure" 
+               TextColor="Black" 
+               PlaceholderColor="Black" 
+               Margin="10"  />
+        <Label> Fecha </Label>
+        <Entry x:Name="txtFecha"
+               BackgroundColor="Azure"
+               TextColor="Black" 
+               PlaceholderColor="Black" 
+               Margin="10"/>
+        <Label> Hora </Label>
+        <Entry x:Name="txtHora"
+               BackgroundColor="Azure"
+               TextColor="Black" 
+               PlaceholderColor="Black" 
+               Margin="10"/>
+        <Label> Descripción </Label>
+        <Entry x:Name="txtDescripcion"
+               BackgroundColor="Azure"
+               TextColor="Black" 
+               PlaceholderColor="Black" 
+               Margin="10"/>
+
+        <Button Text="Agregar" BackgroundColor="Black" TextColor="White" Margin="10" Clicked="btnAgregar_Clicked"/>
+    </VerticalStackLayout>
+    
+</ContentPage>
